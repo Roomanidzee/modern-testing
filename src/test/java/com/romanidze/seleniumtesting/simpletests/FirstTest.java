@@ -1,4 +1,4 @@
-package com.romanidze.seleniumtesting;
+package com.romanidze.seleniumtesting.simpletests;
 
 import java.util.concurrent.TimeUnit;
 import org.junit.*;

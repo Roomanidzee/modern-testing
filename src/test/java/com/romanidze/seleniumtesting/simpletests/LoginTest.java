@@ -1,4 +1,4 @@
-package com.romanidze.seleniumtesting;
+package com.romanidze.seleniumtesting.simpletests;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -24,8 +24,8 @@ import java.util.concurrent.TimeUnit;
 public class LoginTest {
 
     private String siteName = "https://www.facebook.com";
-    private String email = "*ваш email*";
-    private String password = "*ваш пароль*";
+    private String email = "ваш_логин";
+    private String password = "ваш_пароль";
     private WebDriver webDriver;
     private WebDriverWait wait;
 
