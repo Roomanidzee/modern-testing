@@ -1,0 +1,31 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+group 'com.romanidze'
+version '0.1'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+compileJava.options.encoding = 'UTF-8'
+
+ext.seleniumVersion = '3.14.0'
+ext.lombokVersion = '1.18.2'
+ext.junitVersion = '4.12'
+ext.junitDataProviderVersion = '1.10.0'
+
+
+repositories {
+    mavenCentral()
+    maven{ url "http://maven.geomajas.org/"}
+}
+
+dependencies {
+    
+    compile("org.seleniumhq.selenium:selenium-java:$seleniumVersion")
+
+    testCompile("org.projectlombok:lombok:$lombokVersion")
+    testCompile("junit:junit:$junitVersion")
+    testCompile("com.tngtech.java:junit-dataprovider:$junitDataProviderVersion")
+    
+}

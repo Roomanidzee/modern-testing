@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+    <BaseUrl username="">https://www.facebook.com</BaseUrl>
+    <Login>ваш_логин</Login>
+    <Password>ваш_пароль</Password>
+</Settings>
